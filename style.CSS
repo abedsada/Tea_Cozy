@@ -5,3 +5,33 @@ body{
     color:seashell;
     opacity: 0.9;
 }
+header{
+    position: fixed;
+    height: 69px;
+    width:100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+
+}
+#logo{
+    height: 50px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+nav {
+    list-style-type: none;
+    float: right;
+  }
+nav li{
+    display: inline-block;
+    text-decoration: underline;
+    padding: auto 10px;
+    margin: auto 20px;
+} 
+
+#OurMission{
+    background-image: url(./resources/img-mission-background.jpeg);
+    width:1200px;
+    height: 700px;
+} 
