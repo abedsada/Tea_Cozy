@@ -39,7 +39,8 @@ a{
 
 #OurMission{
     background-image: url(./resources/img-mission-background.jpeg);
-    max-width:1200px;
+    background-size: cover;
+    max-width:auto;
     height: 700px;
     display: block;
     margin: 0 auto;
