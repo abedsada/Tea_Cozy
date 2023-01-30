@@ -13,16 +13,19 @@ header{
     background-color: black;
     top: -0px;
     z-index:10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #logo{
     height: 50px;
     margin-left: 10px;
-    display: inline-block;
+
 }
 
 nav {
     list-style-type: none;
-    float: right;
+
   }
 nav li{
     display: inline-block;
