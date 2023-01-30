@@ -32,11 +32,14 @@ nav li{
     text-decoration: underline;
     padding: auto 10px;
     margin: auto 20px;
+}
+a{
+    color:seashell;
 } 
 
-.OurMission{
+#OurMission{
     background-image: url(./resources/img-mission-background.jpeg);
-    width:1200px;
+    max-width:1200px;
     height: 700px;
     display: block;
     margin: 0 auto;
@@ -44,23 +47,24 @@ nav li{
 .h2h4{
     text-align: center;
     background-color: black;
-    display: block;
     width: 100%;
+    
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 } 
-.TeaOfTheMonth{
+#TeaOfTheMonth{
     width: 50%;
     margin: 20px auto;
     text-align: center;
 }
 .container{
+    max-width: 1000px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
-    margin: 0 auto;
     justify-content:center;
 }
 .box img{
@@ -70,21 +74,25 @@ nav li{
 .box{
     margin: 10px;
     text-align: center;
+    display: inline-block;
 }
-.locations{
+
+#locations{
     height: 500px;
-    width:1200px;
+    max-width:1200px;
     background-image: url(./resources/img-locations-background.jpeg);
     margin: 0 auto;
+    width: auto;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .locations h2{
-    width: 100px;
-    margin-top:80px;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;   
+    width: 100%;
+    margin: 0px  auto;
 }
 
 .l_container{
@@ -92,16 +100,19 @@ nav li{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-content: space-around;
+    margin-bottom: 20px;
 }
 
 .l_box{
-    width: 250px;
-    height: 250px;
-    margin: 0 20px;
+    min-width: 300px;
     background-color: black;
-    padding: 15px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+
 }
 
 .l_box h3, .l_box h4{
@@ -110,6 +121,7 @@ nav li{
 }
 
 .contact{
+    display: block;
     height: 200px;
     text-align: center;
 }
@@ -120,6 +132,7 @@ nav li{
 .contact h2{
     margin: 10px auto;    
 }
+
 #copyright{
     margin-left: 20px;
     text-align: left;

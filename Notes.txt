@@ -1,3 +1,2 @@
 Notes to Consider:
-1. Flex all of the website so it will be a responsive design
-2. don't forget to make nav bar a link
+1. Location to edited later + contact
