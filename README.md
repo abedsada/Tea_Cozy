@@ -7,3 +7,5 @@ We will provide a design spec and image assets to help you along the way. A de
 
 
 [![Project Link]()](https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-making-a-website-responsive/modules/wdcp-22-layout-with-flexbox/projects/tea-cozy)
+
+Page link:https://abedsada.github.io/Tea_Cozy/
