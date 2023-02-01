@@ -145,7 +145,7 @@ a{
     text-align: left;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 482px) {
     header{
         height: 120px;
         width: 100%;
@@ -156,5 +156,9 @@ a{
     }
     nav{
         text-align: center;
+    }
+    #locations h2{
+        color: #696330;
+        z-index: 3;
     }
   }
