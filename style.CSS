@@ -79,20 +79,13 @@ a{
 }
 
 #locations{
-    height: 500px;
+    max-height: 580px;
     max-width:1200px;
     width: auto;
     background-image: url(./resources/img-locations-background.jpeg);
     margin: 0 auto;
     background-size: cover;
     overflow  : auto;
-    /*
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    */
     display:grid;
     grid-template: 0.5fr 1fr 5fr 1fr/1fr;
     grid-template-areas:"Empty"
